@@ -10292,15 +10292,21 @@ section#clients .stat:hover .overlay {
     opacity: 1;
     /*change backgroundcolor elham*/
     /*background-color: #222;*/
-    background:white;
+    background:#FF6801;
     font-family: 'montserrat-light-webfont';
 }
+/* adding styles*/
+#services .service-tabs .nav-tabs li.active a span,
+#services .service-tabs .nav-tabs li:hover a span,
+#services .service-tabs .nav-tabs li.focus a span{
+        color:white;
 
+}
 #services .service-tabs .nav-tabs .title {
     display: block;
    /* color: #ccc*/
    /*change color*/
-   color:#FF6801;
+   color:black;
 }
 
 .case-study {

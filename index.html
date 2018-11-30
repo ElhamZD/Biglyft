@@ -12,7 +12,12 @@
 			ul#asd li:hover,
 			ul#asd li.active,
 			ul#asd li.focus{
-				background:white;
+				background:#FF6801;
+			}
+			ul#asd li:hover a span,
+			ul#asd li.active a span,
+			ul#asd li.focus a span{
+				color:white;
 			}
 			a.social-links .social-link.twitter:hover{
 				color:green;
@@ -340,7 +345,7 @@
 											}
 										</script>
 									    <div justified="true" class="service-tabs">
-									        <ul id="asd" style="background:#9b9b9b" class="nav nav-tabs nav-justified" ng-class="{'nav-stacked': vertical, 'nav-justified': justified}" ng-transclude="">
+									        <ul id="asd" style="background:#f3f3f3;color:black;font-weight:bold" class="nav nav-tabs nav-justified" ng-class="{'nav-stacked': vertical, 'nav-justified': justified}" ng-transclude="">
 
 									            <li id="tab1" class="active" ng-class="{active: active, disabled: disabled}">
 									                <a href="javascript:abc('1')" ng-click="select()" tab-heading-transclude="">

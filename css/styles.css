@@ -4906,7 +4906,7 @@ body.loaded #services .emblem .emblem-inner .viewport img {
 }
 #services .service-tabs .nav-tabs li.active a {
     opacity:1;
-    background-color:#222;
+    background-color:#FF6801;
     font-family: 'montserrat-light-webfont';
 }
 #services .service-tabs .nav-tabs .title {

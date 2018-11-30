@@ -101,17 +101,33 @@ $('.QOverlay').css('visibility','hidden');
             ul#asd li:hover,
             ul#asd li.active,
             ul#asd li.focus{
-                background:white;
+                background:#FF6801;
             }
+            #services .service-tabs .nav-tabs li a span:hover
             #services .service-tabs .service{
-                background:white;
+                color:white;
             }
             #services .service-tabs .nav-tabs .title{
-                color:#FF6801;
+                color:#000000;
             }
-            a.pull-right h1:hover{
+            a.pull-right :hover{
+                background:#FF6801;
+                color:white;
+            }
+            a.pull-right:hover> h1{
+                color:white;
+            }
+            body{
                 background:white;
             }
+            #services .service-tabs .nav-tabs li.active a span,
+            #services .service-tabs .nav-tabs li:hover a span,
+            #services .service-tabs .nav-tabs li.focus a span{
+        color:white;
+    }
+    .row{
+        background:white;
+    }
     </style>
     <body class="loaded" data-ng-app="teamgeek" data-ng-class="{ loaded: appLoaded }" data-ng-strict-di=""></body>
         <script type="text/javascript" async src="js/ga.js"></script>
@@ -325,7 +341,7 @@ $('.QOverlay').css('visibility','hidden');
 </script>
                 <section>
                   <div justified="true" class="service-tabs">
-                        <ul id="asd" style="background:#9b9b9b" class="nav nav-tabs nav-justified" ng-class="{'nav-stacked': vertical, 'nav-justified': justified}" ng-transclude="">
+                        <ul id="asd" style="background:#f3f3f3;color:black;font-weight:bold" class="nav nav-tabs nav-justified" ng-class="{'nav-stacked': vertical, 'nav-justified': justified}" ng-transclude="">
                          
                             <li id="tab1" class="active" ng-class="{active: active, disabled: disabled}">
                                 <a href="javascript:abc('1')" ng-click="select()" tab-heading-transclude="">
@@ -610,9 +626,9 @@ $('.QOverlay').css('visibility','hidden');
                   <div class="container-fluid full">
                         <div class="row">
                             <div class="col-xs-12 no-gutter">
-                                <div class="latest-work-bar" style="background:#9b9b9b">
-                                    <h1 class="pull-left" style="color:#FF6801">Latest Work</h1>
-                                    <a href="work.html" class="pull-right" style="background:#9b9b9b"><h1 style="color:#FF6801">View More</h1></a>
+                                <div class="latest-work-bar" style="background:#f3f3f3">
+                                    <h1 class="pull-left" style="color:black">Latest Work</h1>
+                                    <a href="work.html" class="pull-right" style="background:#f3f3f3"><h1 style="color:black">View More</h1></a>
                                     <div class="clearfix"></div>
                                 </div>
                             </div>
