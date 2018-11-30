@@ -9768,7 +9768,7 @@ img.full {
 }
 
 section {
-    background: #171717 none repeat scroll 0 0;
+    /*background: #171717 none repeat scroll 0 0;*/
     color: #ccc;
     text-align: center;
     font-weight: 300
