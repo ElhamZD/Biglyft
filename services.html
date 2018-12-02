@@ -87,48 +87,7 @@ $('.QOverlay').css('visibility','hidden');
 	  $('#logo_image').hide().fadeIn(8000);
 	  };
       }</script>
-	<style type="text/css">
-    	#menu_outer ul li span
-		{
-			cursor:pointer;	
-		}
-        #menu_outer ul li:hover{
-                background:none
-            }
-            #menu_outer ul li span:hover{
-                color:#FF6801;
-            }
-            ul#asd li:hover,
-            ul#asd li.active,
-            ul#asd li.focus{
-                background:#FF6801;
-            }
-            #services .service-tabs .nav-tabs li a span:hover
-            #services .service-tabs .service{
-                color:white;
-            }
-            #services .service-tabs .nav-tabs .title{
-                color:#000000;
-            }
-            /*a.pull-right :hover{
-                background:#FF6801;
-                color:white;
-            }*/
-            a.pull-right:hover> h1{
-                text-decoration: underline;
-            }
-            body{
-                background:white;
-            }
-            #services .service-tabs .nav-tabs li.active a span,
-            #services .service-tabs .nav-tabs li:hover a span,
-            #services .service-tabs .nav-tabs li.focus a span{
-        color:white;
-    }
-    .row{
-        background:white;
-    }
-    </style>
+
     <body class="loaded" data-ng-app="teamgeek" data-ng-class="{ loaded: appLoaded }" data-ng-strict-di=""></body>
         <script type="text/javascript" async src="js/ga.js"></script>
         <script type="text/javascript">
@@ -264,7 +223,7 @@ $('.QOverlay').css('visibility','hidden');
         </script>
         <div class="fat-nav" >
         <div class="fat-nav__wrapper" id="menu_outer">
-            <ul style="background:#efefef">
+            <ul>
             	<!--<li style="background:none;"><a href="index.html"><img src="images/top_logo.png" alt="top-logo"></a></li>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="work.html">Work</a></li>
@@ -277,12 +236,12 @@ $('.QOverlay').css('visibility','hidden');
                     	<img src="images/top_logo.png" alt="top-logo">
                     </span>
                 </li>
-                <li style="color:black"><span onClick="go_on('/')">HOME</span></li>
-                <li style="color:black"><span onClick="go_on('work.html')">WORK</span></li>
-                <li style="color:black"><span onClick="go_on('services.html')">SERVICES</span></li>
+                <li><span onClick="go_on('/')">HOME</span></li>
+                <li><span onClick="go_on('work.html')">WORK</span></li>
+                <li><span onClick="go_on('services.html')">SERVICES</span></li>
               <!--  <li><span onClick="go_on('blog')">BLOG</span></li> -->
-                <li style="color:black"><span onClick="go_on('people.html')">PEOPLE</span></li>
-                <li style="color:black"><span onClick="go_on('contact.html')">CONTACT</span></li>
+                <li><span onClick="go_on('people.html')">PEOPLE</span></li>
+                <li><span onClick="go_on('contact.html')">CONTACT</span></li>
             </ul>
         </div>
         <div class="social-links">
@@ -341,7 +300,7 @@ $('.QOverlay').css('visibility','hidden');
 </script>
                 <section>
                   <div justified="true" class="service-tabs">
-                        <ul id="asd" style="background:#f3f3f3;color:black;font-weight:bold" class="nav nav-tabs nav-justified" ng-class="{'nav-stacked': vertical, 'nav-justified': justified}" ng-transclude="">
+                        <ul id="asd" class="nav nav-tabs nav-justified" ng-class="{'nav-stacked': vertical, 'nav-justified': justified}" ng-transclude="">
                          
                             <li id="tab1" class="active" ng-class="{active: active, disabled: disabled}">
                                 <a href="javascript:abc('1')" ng-click="select()" tab-heading-transclude="">
@@ -434,11 +393,11 @@ $('.QOverlay').css('visibility','hidden');
                                         </div>
                                         <div class="col-sm-5">
                                             <div class="description">
-												<h1 style="color:#FF6801">Webshop</h1>
-												<p style="color:black">Our customized Online Web Shops boost sales and profit margins and obtain new customers you wouldn’t otherwise have had.</p>
-									            <p style="color:black">We build fully functional eCommerce Development with customized design, order processing, content management, shopping cart, easy-to-use checkout, customer login, Promotion and discount code tools.
+												<h1>Webshop</h1>
+												<p>Our customized Online Web Shops boost sales and profit margins and obtain new customers you wouldn’t otherwise have had.</p>
+									            <p>We build fully functional eCommerce Development with customized design, order processing, content management, shopping cart, easy-to-use checkout, customer login, Promotion and discount code tools.
 												</p>
-												<p style="color:black">We can integrate iDeal, PayPal, Credit/Debit Card, Skrill or any other payment methods.</p>                                        
+												<p>We can integrate iDeal, PayPal, Credit/Debit Card, Skrill or any other payment methods.</p>                                        
                                             </div>
 											
                                         </div>
@@ -476,8 +435,8 @@ $('.QOverlay').css('visibility','hidden');
                             <!-- end ngRepeat: tab in tabs -->
                             <div id="tab_content3" class="tab-pane" ng-repeat="tab in tabs" ng-class="{active: tab.active}" tab-content-transclude="tab">
 
-                                <div class="container-fluid service" style="background:white">
-                                    <div class="row" style="background:white">
+                                <div class="container-fluid service">
+                                    <div class="row">
                                         <div class="col-sm-5 hidden-xs">
                                             <div class="icon">
                                                 <img src="images/webdesign-icon.png" alt="webdesign-icon" class="img-responsive">
@@ -485,11 +444,11 @@ $('.QOverlay').css('visibility','hidden');
                                         </div>
                                         <div class="col-sm-5">
 										<div class="description">
-                                                <h1 style="color:#FF6801">Website Design</h1>
+                                                <h1>Website Design</h1>
                                                 
-												<p style="color:black">Conception, Creation and Web Design that look good in any device.
+												<p>Conception, Creation and Web Design that look good in any device.
 												</p>
-									            <p style="color:black">Websites and Web Portal are the main platforms for communication in the digital age. That is why we combine cutting-edge technology with innovative design and custom made concepts for our cients. We cover the entire range of services from Consulting to concept and creation to technical implementation & support. We rely on the most powerful tools, especially WordPress Developer, Joomla, Magento Developer, Typo3 as well as various other CMS systems.
+									            <p>Websites and Web Portal are the main platforms for communication in the digital age. That is why we combine cutting-edge technology with innovative design and custom made concepts for our cients. We cover the entire range of services from Consulting to concept and creation to technical implementation & support. We rely on the most powerful tools, especially WordPress Developer, Joomla, Magento Developer, Typo3 as well as various other CMS systems.
 												</p>												
                                             </div>
                                             
@@ -510,11 +469,11 @@ $('.QOverlay').css('visibility','hidden');
                                         </div>
                                         <div class="col-sm-5">
                                             <div class="description">
-                                                <h1 style="color:#FF6801">Web Development</h1>
-												<p style="color:black">Our Web Developer use latest techniques and trusted technologies for Web Development.</p>
-									            <p style="color:black">
+                                                <h1>Web Development</h1>
+												<p>Our Web Developer use latest techniques and trusted technologies for Web Development.</p>
+									            <p>
 									            We love programming, be it Backend development with Core PHP developer, PHP with LARAVEL & CodeIgniter, Python Developer OR Frontend Development using HTML, CSS, Javascript, JQuery, Node.js, Angular JavaScript.</p>
-												<p style="color:black">We can create a Simple or Complex Web Application Development and Website Design that works great in any device. We can build Billing system, Tracking & CRM, Web Portal, Ticketing system, Order Processing or Inventory management or any kind of customized tool.
+												<p>We can create a Simple or Complex Web Application Development and Website Design that works great in any device. We can build Billing system, Tracking & CRM, Web Portal, Ticketing system, Order Processing or Inventory management or any kind of customized tool.
 									            </p>       												
                                             </div>
                                         </div>
@@ -534,10 +493,10 @@ $('.QOverlay').css('visibility','hidden');
                                         </div>
                                         <div class="col-sm-5">
                                             <div class="description">
-                                                <h1 style="color:#FF6801">CMS</h1>
+                                                <h1>CMS</h1>
                                                 
-												<p style="color:black">We build your backend Content Management System (admin section) so that you can easily manage your site's content.</p>
-                                                <p style="color:black">
+												<p>We build your backend Content Management System (admin section) so that you can easily manage your site's content.</p>
+                                                <p>
                                                     We either program it from the scratch according to your custom requirements or we use one of the best CMS available  that is most suitable for your needs - WORDPRESS, JOOMLA, MAGENTO, SHOPIFY etc.
                                                 </p>			
                                             </div>
@@ -558,9 +517,9 @@ $('.QOverlay').css('visibility','hidden');
                                         </div>
                                         <div class="col-sm-5">
                                             <div class="description">
-                                                <h1 style="color:#FF6801">Branding</h1>
-                                                <p style="color:black">“In a big part of the world, people cannot read French or English – but are great in remembering signs”</p>
-                                                <p style="color:black">
+                                                <h1>Branding</h1>
+                                                <p>“In a big part of the world, people cannot read French or English – but are great in remembering signs”</p>
+                                                <p>
                                                     We involve a creative and systematic plan to design Logos and other Corporate Identity designs using images, symbols and even words. Our designers are highly experienced with an artistic inclination and a creative mind.													
                                                 </p>                                                											                                                                                 
                                             </div>
@@ -607,9 +566,9 @@ $('.QOverlay').css('visibility','hidden');
                                         </div>
                                         <div class="col-sm-5">
                                             <div class="description">
-                                                <h1 style="color:#FF6801">UX / UI</h1>
-												<p style="color:black">While User Experience Design (UX) is a conglomeration of tasks focused on optimization of a product for effective and enjoyable use; User Interface Design (UI) is its compliment, the look and feel, the presentation and interactivity of a product. We connect your business goals to your users’ requirements by turning complex concepts into clean, lovely designs and accessible experiences</p>
-                                                <p style="color:black">
+                                                <h1>UX / UI</h1>
+												<p>While User Experience Design (UX) is a conglomeration of tasks focused on optimization of a product for effective and enjoyable use; User Interface Design (UI) is its compliment, the look and feel, the presentation and interactivity of a product. We connect your business goals to your users’ requirements by turning complex concepts into clean, lovely designs and accessible experiences</p>
+                                                <p>
                                                     “Whenever we are able to use twenty five words do the work of fifty, we reduce the disorganization to half.”											
                                                 </p>    
                                             </div>
@@ -626,9 +585,9 @@ $('.QOverlay').css('visibility','hidden');
                   <div class="container-fluid full">
                         <div class="row">
                             <div class="col-xs-12 no-gutter">
-                                <div class="latest-work-bar" style="background:#f3f3f3">
-                                    <h1 class="pull-left" style="color:black">Latest Work</h1>
-                                    <a href="work.html" class="pull-right" style="background:#f3f3f3"><h1 style="color:black">View More</h1></a>
+                                <div class="latest-work-bar">
+                                    <h1 class="pull-left">Latest Work</h1>
+                                    <a href="work.html" class="pull-right"><h1>View More</h1></a>
                                     <div class="clearfix"></div>
                                 </div>
                             </div>
@@ -880,9 +839,7 @@ $('.QOverlay').css('visibility','hidden');
 			window.location=link_data;
 		}
 	</script>
-     <style>
-   
-          </style>
+
 		  <script>
    
    $( document ).ready(function() {

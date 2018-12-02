@@ -108,12 +108,16 @@ a:focus{
     float: left;
 
 }
+section.custom_clients#clients{
+    background: white;
+}
 
 section#clients p{
 
     font-family: 'montserrat-light-webfont';
 
     font-size: 18px;
+    color:black;
 
 }
 
@@ -134,6 +138,7 @@ section#clients p{
 #clients.custom_clients .title_description3{
 
     font-size:28px;
+    color:#FFAB31;
 
 }
 
@@ -189,6 +194,9 @@ section#clients p{
     color:black;
 
 }
+.case-study .content p.white{
+    color:white;
+}
 
 .case-study .project_bg .title_description{
 
@@ -215,7 +223,9 @@ section#clients p{
 }
 
 /*SERVICES PAGE CSS*/
-
+#services{
+    background:white;
+}
 #services .service-tabs .nav-tabs li a{
 
     font-family: 'montserrat-light-webfont';
@@ -235,21 +245,22 @@ section#clients p{
     font-family: 'montserrat-bold-webfont';
 
     font-size: 250%;
+    color:#FF6801;
 
 }
 
 #services .service-tabs .service .description p{
 
     font-family: 'montserrat-light-webfont';
-
     font-size: 18px;
+    color:black;
 
 }
 
 .latest-work-bar h1{
 
     font-size: 121%;
-
+    color:black;
     font-family: 'montserrat-regular-webfont';
 
 }
@@ -259,11 +270,13 @@ section#clients p{
 #contact section .contact-details p{
 
     font-family: 'montserrat-light-webfont';
-
+    color:black;
     font-size: 18px;
 
 }
-
+#contact section .contact-details p span{
+    color:#FF6801;
+}
 #contact .small-text{
 
     font-family: 'montserrat-light-webfont';
@@ -291,7 +304,7 @@ section#clients p{
 #people section p{
 
     font-family: 'montserrat-light-webfont';
-
+    color:black;
     font-size: 18px;
 
 }
@@ -299,7 +312,7 @@ section#clients p{
 #people .custom_team .title_description{
 
     font-size:30px; 
-
+    color:black;
     line-height: 110%;
 
 }
@@ -327,7 +340,11 @@ section#clients p{
 #people .custom_office .title_description1{
 
     font-size:28px; 
+    color:#FFAB31;
 
+}
+#people .custom_team .title_description2{
+    color:#FFAB31;
 }
 
 /*PAYMENT CSS*/
@@ -432,30 +449,30 @@ section#clients p{
 #whattodo .description p {
     font-family: 'montserrat-light-webfont';
     font-size: 18px;
-	margin-bottom: 20px;
-	line-height: 1.6em;
-	text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.6em;
+    text-align: center;
 }
 #whattodo .myrow{
     margin: 30px 0;
     float: left;
-	text-align: center;
-	width: 100%;
+    text-align: center;
+    width: 100%;
 }
 #whattodo .myrow a.reamoremoney {
     font-family: 'montserrat-light-webfont';
     font-size: 18px;
-	line-height: 1.6em;
-        color: #fff;
-	margin: 20px 0;
+    line-height: 1.6em;
+    color: #fff;
+    margin: 20px 0;
 }
 .readmymore.btn.btn-default {
 	font-family: 'montserrat-light-webfont';
     background: #f05023;
     line-height: 45px;
-     padding: 0 20px;
-	color:#fff;
-	margin: 0 10px 30px;
+    padding: 0 20px;
+    color:#fff;
+    margin: 0 10px 30px;
 }
 #whattodo .container {
     width: 100%;
@@ -470,44 +487,44 @@ section#clients p{
 .language_switcher {
     width: 110px;}
 
-/*=================  End ========================*/
+    /*=================  End ========================*/
 
 
 
-@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+    @media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
 
-#whattodo .col-sm-4 {
-    width: 33% !important;
-    margin: 0; float: left;
-}
-}
+        #whattodo .col-sm-4 {
+            width: 33% !important;
+            margin: 0; float: left;
+        }
+    }
 
-@media screen and (min-device-width: 769px) and (max-device-width: 1024px) { 
+    @media screen and (min-device-width: 769px) and (max-device-width: 1024px) { 
 
-#whattodo .col-sm-4 {
-    width: 33% !important;
-    margin: 0; float: left;
-}
-}
+        #whattodo .col-sm-4 {
+            width: 33% !important;
+            margin: 0; float: left;
+        }
+    }
 
-@media screen and (min-device-width: 1025px) and (max-device-width: 1250px) { 
+    @media screen and (min-device-width: 1025px) and (max-device-width: 1250px) { 
 
-#whattodo .col-sm-4 {
-    width: 33% !important;
-    margin: 0; float: left;
-}
-}
+        #whattodo .col-sm-4 {
+            width: 33% !important;
+            margin: 0; float: left;
+        }
+    }
 
-@media (min-width: 850px) and (max-width: 1340px) {
-  
-	#whattodo .col-sm-4 { width: 31%; margin: 0 12px; } 
+    @media (min-width: 850px) and (max-width: 1340px) {
 
-}
+     #whattodo .col-sm-4 { width: 31%; margin: 0 12px; } 
+
+ }
 
 
-/***------ RESPONSIVE CSS -----***/
+ /***------ RESPONSIVE CSS -----***/
 
-@media (max-width: 1200px){
+ @media (max-width: 1200px){
 
     body{
 
@@ -525,133 +542,134 @@ section#clients p{
 
     }
 
-#clients.custom_clients .title_description{
+    #clients.custom_clients .title_description{
 
-    font-size:20px;
- 
+        font-size:20px;
+
     }
 
-#clients.custom_clients .title_description3{
+    #clients.custom_clients .title_description3{
 
-    font-size:20px;
+        font-size:20px;
 
-}
+    }
 
-/*PAYMENT CSS*/
+    /*PAYMENT CSS*/
 
-.case-study .content p.h1{
+    .case-study .content p.h1{
 
-    font-size: 25px;
+        font-size: 25px;
 
-}
+    }
 
-.case-study .content p.h2{
+    .case-study .content p.h2{
 
-    font-size: 20px;
+        font-size: 20px;
 
-}
+    }
 
-.case-study .content p.h3{
+    .case-study .content p.h3{
 
-    font-size: 15px;
+        font-size: 15px;
 
-}
+    }
 
-.case-study .content p.h4{
+    .case-study .content p.h4{
 
-    font-size: 15px;
+        font-size: 15px;
 
-}
+    }
 
-/*PEOPLE PAGE CSS*/
+    /*PEOPLE PAGE CSS*/
 
-#people .custom_team .title_description{
+    #people .custom_team .title_description{
 
-    font-size:20px; 
+        font-size:20px;
+        color:black; 
 
-}
+    }
 
-#people .custom_team .title_description1{
+    #people .custom_team .title_description1{
 
-    font-size:20px; 
+        font-size:20px; 
 
-}
+    }
 
-#people .custom_team .title_description2{
+    #people .custom_team .title_description2{
 
-    font-size: 15px; 
+        font-size: 15px; 
 
-}
+    }
 
-#people .custom_office .title_description{
+    #people .custom_office .title_description{
 
-    font-size:20px; 
+        font-size:20px; 
 
-}
+    }
 
-#people .custom_office .title_description1{
+    #people .custom_office .title_description1{
 
-    font-size:15px; 
+        font-size:15px; 
 
-}
+    }
 
-/*TERMS CSS*/
+    /*TERMS CSS*/
 
-.terms_outer .terms_inner .terms-content p{
+    .terms_outer .terms_inner .terms-content p{
 
-    font-size: 18px;
+        font-size: 18px;
 
-}
+    }
 
-.terms_outer .terms_inner .terms-content p.h1{
+    .terms_outer .terms_inner .terms-content p.h1{
 
-    font-size: 25px;
+        font-size: 25px;
 
-}
+    }
 
-.terms_outer .terms_inner .terms-content p.h2{
+    .terms_outer .terms_inner .terms-content p.h2{
 
-    font-size: 25px;
+        font-size: 25px;
 
-}
+    }
 
-.terms_outer .terms_inner .terms-content p.h3{
+    .terms_outer .terms_inner .terms-content p.h3{
 
-    font-size: 20px;
+        font-size: 20px;
 
-}
+    }
 
-.terms_outer .terms_inner .terms-content p.h4{
+    .terms_outer .terms_inner .terms-content p.h4{
 
-    font-size: 15px;
+        font-size: 15px;
 
-}
+    }
 
-/*WORKPAGE CSS*/
+    /*WORKPAGE CSS*/
 
-.case-study .content p{
+    .case-study .content p{
 
-    font-size: 18px;
+        font-size: 18px;
 
-}
+    }
 
-.case-study .project_bg .title_description{
+    .case-study .project_bg .title_description{
 
-    font-size:15px;
+        font-size:15px;
 
-}
+    }
 
-.case-study .project_bg .title_description1{
+    .case-study .project_bg .title_description1{
 
-    font-size:15px;
+        font-size:15px;
 
-}
+    }
 
-.case-study .project_bg .title_description2{
+    .case-study .project_bg .title_description2{
 
-    font-size:15px;
+        font-size:15px;
 
-}
+    }
 
     /*FOOTER CSS*/
 
@@ -677,10 +695,16 @@ section#clients p{
 
     /*SERVICES PAGE CSS*/
 
+    section#showcase .col-xs-12 .latest-work-bar{
+        background:#efefef;
+    }
     #services .service-tabs .nav-tabs li a{
 
         font-size: 12px;
 
+    }
+    .latest-work-bar a{
+        background-color:#efefef
     }
 
     #services .service-tabs .service .description p{
@@ -689,11 +713,13 @@ section#clients p{
 
     }
 
+
     /*PEOPLE PAGE CSS*/
 
     #people section p {
 
         font-size: 12px;
+        color:black;
 
     }
 
@@ -721,26 +747,26 @@ section#clients p{
 
     }
 
-/*WEBSHOP PAGE CSS*/
-	
-	#whattodo .description h1 {
+    /*WEBSHOP PAGE CSS*/
+
+    #whattodo .description h1 {
     	font-size: 30px;
-	}
-#whattodo .description h3 {
-    font-size: 130%;
-}
-#whattodo .description p {
-    font-size: 12px;
-}
+    }
+    #whattodo .description h3 {
+        font-size: 130%;
+    }
+    #whattodo .description p {
+        font-size: 12px;
+    }
 
-#whattodo .myrow a.reamoremoney {
-    font-size: 18px;
-}
-.readmymore.btn.btn-default {
-	font-size: 12px;
-}
+    #whattodo .myrow a.reamoremoney {
+        font-size: 18px;
+    }
+    .readmymore.btn.btn-default {
+     font-size: 12px;
+ }
 
-  #whattodo .col-sm-4 {
+ #whattodo .col-sm-4 {
     width: 100%;
     margin: 0;
 }  
@@ -816,7 +842,6 @@ section#clients p{
     -moz-appearance: none;
 
     -webkit-appearance:none;
-    /*elham style*/
     background: white;
     color:#ccc;
 
@@ -839,7 +864,7 @@ section#clients p{
 .a{
 
     overflow-x: hidden;
-	width:100%;
+    width:100%;
 
 }
 
@@ -880,30 +905,18 @@ section#clients p{
 /*** HEADER CSS ***/
 
 #header{
-
     display:none;
-
     height:60px;
-
     position: fixed;
-
     top: 0;
-
     width:100%;
-
     z-index: 100;
-
-    /*background:rgba(23, 23, 23, 0.4);*/
     background:#f3f3f3;
-
 }
 
 .header_ul li span{
-
     color: #cccccc; 
-
     margin-right: 60px;
-
 }
 
 .header_ul li span i{
@@ -918,20 +931,10 @@ section#clients p{
     width: 990px;
 
     margin: 0 auto;
+    background: #efefef
 
 }
-
-#header
-
-{
-
-    background: #f3f3f3;
-
-}
-
-.mobile_header
-
-{
+.mobile_header{
 
     display: none;
 
@@ -1012,18 +1015,12 @@ section#clients p{
     color: #ccc;
 
 }
-
 .custom_header .header_ul li span{
-
-    /*color: #ccc;*/
     color:black;
-
 }
 
 .custom_header .header_ul a{
-
     color: #ccc;
-
 }
 
 .custom_header .logo_center {
@@ -1211,15 +1208,20 @@ section#clients p{
     cursor: pointer;
 
 }
+#menu_outer ul{
+    background:#efefef;
+}
 
-#menu_outer ul li span
-
-{
-
+#menu_outer ul li span{
     cursor: pointer;
-
     font-weight: 700;
-
+    color:black;
+}
+#menu_outer ul li:hover{
+    background:none;
+}
+#menu_outer ul li span:hover{
+    color:#FF6801;
 }
 
 #showcase .col-sm-4.no-gutter {
@@ -1306,7 +1308,7 @@ section#clients p{
 		display: block;
 		width: 68%;
 		margin: 0 auto;
-	
+
 	}
     .loaded.scroll{
 
@@ -1372,59 +1374,60 @@ section#clients p{
 
         max-height: 800px;
 
-    }*/
+        }*/
 
-    .mobile_logo{
+        .mobile_logo{
 
-        display: block;
+            display: block;
+
+        }
+
+        .homepage_logo{
+
+            /*height: calc(100% - 60px);*/
+
+            display: none;
+
+        }
+
+        .case-study section.hero{
+
+            min-height: 380px;
+
+            max-height: 480px;
+
+            background-size: cover !important;
+
+            background-position: center !important;
+
+        }
+
+
+
+        section#clients .client-logo .logo-face{
+
+            max-height: 125px;
+
+            min-height: 125px;
+
+        }
+
+        .tab-pane .service .col-sm-5{
+
+            width: 50%;
+
+        }
+
+        #services .service-tabs .service .description h1{
+
+            font-size: 30px;
+            color:#ff6801;
+
+        }
 
     }
 
-    .homepage_logo{
-
-        /*height: calc(100% - 60px);*/
-
-        display: none;
-
-    }
-
-    .case-study section.hero{
-
-        min-height: 380px;
-
-        max-height: 480px;
-
-        background-size: cover !important;
-
-        background-position: center !important;
-
-    }
-
-    
-
-    section#clients .client-logo .logo-face{
-
-        max-height: 125px;
-
-        min-height: 125px;
-
-    }
-
-    .tab-pane .service .col-sm-5{
-
-        width: 50%;
-
-    }
-
-    #services .service-tabs .service .description h1{
-
-        font-size: 30px;
-
-    }
-
-}
-
-@media only screen and (max-width: 979px) {
+    @media only screen and (max-width: 979px) {
 
    /* #services .service-tabs .service .col-sm-5 {
 
@@ -1444,17 +1447,17 @@ section#clients p{
 
         margin: 0 auto;
 
-    }*/
-	
-	.mobile_logo {
+        }*/
 
-		display: block;
-		width: 86%;
-		margin: 0 auto;
-	
-	}
+        .mobile_logo {
 
-    .d .social-links {
+          display: block;
+          width: 86%;
+          margin: 0 auto;
+
+      }
+
+      .d .social-links {
 
         margin: 16px 0;
 
@@ -1482,23 +1485,23 @@ section#clients p{
 
         max-width: 100%;
 
-    }*/
+        }*/
 
-}
+    }
 
-@media only screen and (max-width: 768px ) {
+    @media only screen and (max-width: 768px ) {
 
 
-.mobile_logo {
+        .mobile_logo {
 
-		display: block;
-		width: 89%;
-		margin: 0 auto;
-	
-	}
-    /**** BASIC CSS ****/
+          display: block;
+          width: 89%;
+          margin: 0 auto;
 
-    .tab-pane .service .col-sm-5{
+      }
+      /**** BASIC CSS ****/
+
+      .tab-pane .service .col-sm-5{
 
         width: 100%;
 
@@ -1552,83 +1555,83 @@ section#clients p{
 
         font-size: 130%;
 
-    }*/
+        }*/
 
 
 
-    .callbackbtn
+        .callbackbtn
 
-    {
+        {
 
-        display: block;
+            display: block;
 
-    }
+        }
 
-    .mobile_header
+        .mobile_header
 
-    {
+        {
 
-        display: block;
+            display: block;
 
-    }
+        }
 
-    .menu_logo img
+        .menu_logo img
 
-    {
+        {
 
-        padding: 15px;
+            padding: 15px;
 
-    }
+        }
 
-    .language_switcher
+        .language_switcher
 
-    {  
+        {  
 
-        padding: 15px 5px;
+            padding: 15px 5px;
 
-        /*top: 1% !important;*/
+            /*top: 1% !important;*/
 
-    }
+        }
 
-    section#landing{
+        section#landing{
 
-        background-size: cover !important;
+            background-size: cover !important;
 
-        background-position: center !important;
+            background-position: center !important;
 
-        /*height: auto !important;*/
+            /*height: auto !important;*/
 
-    }
+        }
 
-    .case-study.packright section.hero .emblem .emblem-inner {
+        .case-study.packright section.hero .emblem .emblem-inner {
 
-        max-width: 597px;
+            max-width: 597px;
 
-        min-width: 200px;
+            min-width: 200px;
 
-        width: 280px;
+            width: 280px;
 
-    }
+        }
 
-    .case-study.gallantoro section.hero .emblem .emblem-inner {
+        .case-study.gallantoro section.hero .emblem .emblem-inner {
 
-        min-width: 200px;
+            min-width: 200px;
 
-    }
-
-
-
-    /**** SERVICES CSS ****/
+        }
 
 
 
-    #services .service-tabs .service .description{
+        /**** SERVICES CSS ****/
 
-        padding: 50px 20px;
 
-    }
 
-    
+        #services .service-tabs .service .description{
+
+            padding: 50px 20px;
+
+        }
+
+
 
     /*.latest-work-bar h1{
 
@@ -1640,7 +1643,7 @@ section#clients p{
 
         font-size: 14px;
 
-    }*/
+        }*/
 
     /*
 
@@ -1660,25 +1663,25 @@ section#clients p{
 
         background-color: rgba(0, 0, 0, .8);
 
-    }*/
-
-}
-@media screen and (max-width: 768px) and (orientation: landscape) {
-	.mobile_logo {
-
-		display: block;
-		width: 44%;
-		margin: 0 auto;
-	
-	}
-	
-}
-@media only screen and (max-width: 480px) {
-	#services .service-tabs .service .description h1{
-
-        font-size: 22px;
+        }*/
 
     }
+    @media screen and (max-width: 768px) and (orientation: landscape) {
+     .mobile_logo {
+
+      display: block;
+      width: 44%;
+      margin: 0 auto;
+
+  }
+
+}
+@media only screen and (max-width: 480px) {
+ #services .service-tabs .service .description h1{
+
+    font-size: 22px;
+
+}
 
 @media only screen and (max-width: 480px) {
 	#whattodo .description h1 {
@@ -1687,56 +1690,56 @@ section#clients p{
 
     }
 
-/*OUTSOURCING PAGE CSS*/
+    /*OUTSOURCING PAGE CSS*/
 
-@media only screen and (max-width: 480px) {
-#main .outsourcing_outer .outsourcing_tab .outsourcing_content .description h1{
+    @media only screen and (max-width: 480px) {
+        #main .outsourcing_outer .outsourcing_tab .outsourcing_content .description h1{
 
-    font-size: 22px;
+            font-size: 22px;
 
-}
+        }
 
-/*CONTACT PAGE CSS*/
+        /*CONTACT PAGE CSS*/
 
-@media only screen and (max-width: 480px) {
-#contact section h1{
+        @media only screen and (max-width: 480px) {
+            #contact section h1{
 
-    font-size: 22px;
-}
+                font-size: 22px;
+            }
 
-.mobile_logo {
-    display: block;
-    width: 100%;
-    margin: 0 auto;
-}
-    .contact_map #map { 
+            .mobile_logo {
+                display: block;
+                width: 100%;
+                margin: 0 auto;
+            }
+            .contact_map #map { 
 
-        height: 340px !important;
+                height: 340px !important;
 
-    }
+            }
 
-    .case-study.packright section.hero{
+            .case-study.packright section.hero{
 
-        min-height: 380px;
+                min-height: 380px;
 
-        background-size: cover !important;
+                background-size: cover !important;
 
-        background-position: center !important;
+                background-position: center !important;
 
-    }
+            }
 
-}
+        }
 
-@media screen and (max-width: 480px) and (orientation: landscape) {
-	.mobile_logo {
+        @media screen and (max-width: 480px) and (orientation: landscape) {
+         .mobile_logo {
 
-		display: block;
-		width: 44%;
-		margin: 0 auto;
-	
-	}
-	
-}
+          display: block;
+          width: 44%;
+          margin: 0 auto;
+
+      }
+
+  }
 
 
 
@@ -1746,32 +1749,26 @@ section#clients p{
 
     height:  44.47916666666667vw !important;
 
-}*/
+    }*/
 
 
 
-section#landing {
+    section#landing {
 
-    display: flex;
+        display: flex;
 
-    align-items: center;
+        align-items: center;
 
-}
+    }
 
 
-/*Elham style*/
-body{
-    background:white
-}
-.row{
-    background:white;
-}
-.meshim_widget_components_chatButton_Button:hover{
-    background:white;
-}
-.facebook:hover{
-    color:blue;
-}
-.border_overlay.meshim_widget_widgets_BorderOverlay:hover{
-    background: green
-}
+
+    body{
+        background:white
+    }
+    .row{
+        background:white;
+    }
+    .meshim_widget_components_chatButton_Button:hover{
+        background:white;
+    }
